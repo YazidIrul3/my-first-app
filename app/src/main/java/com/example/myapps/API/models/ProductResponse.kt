@@ -1,4 +1,5 @@
 package com.example.myapps.API.models
 
-class ProductResponse {
-}
+data class ProductResponse (
+    val products: List<Product>
+)
